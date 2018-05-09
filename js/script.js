@@ -76,4 +76,8 @@ $(document).ready(function() {
 	$(".bottom_button").mouseleave(function() {
 		$("body").css("background-color", "#eee");
 	});
+	
+	$("#first_button").click(function(){
+	    $("#first_button").hide("slow");
+	});
 });
